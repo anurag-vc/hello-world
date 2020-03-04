@@ -1,0 +1,26 @@
+{
+    "name": "anurag/helloworld",
+    "description": "Showing Hello World",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anurag Trivedi",
+            "email": "anurag.trivedi@viitorcloud.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hello\\HelloWorld\\HelloWorldServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Hello\\HelloWorld\\": "src/"
+        }
+    }
+}
